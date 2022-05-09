@@ -1,0 +1,2 @@
+BASE_URL = 'mock地址'
+APP_MICRO_SUB_PATH = /项目前缀
