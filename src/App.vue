@@ -2,12 +2,14 @@
   <DefaultLayer />
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
-import DefaultLayer from "@/layout/default/index.vue";
+import { defineComponent } from 'vue'
+import DefaultLayer from '@/layout/default/index.vue'
 export default defineComponent({
   components: { DefaultLayer },
-  setup() {},
-});
+  setup() {
+    console.log('sada')
+  },
+})
 </script>
 
 <style lang="scss">
